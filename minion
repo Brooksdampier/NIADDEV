@@ -13,7 +13,7 @@
 
 # Set the location of the salt master server. If the master server cannot be
 # resolved, then the minion will fail to start.
-master: ai-wdtsaltdev4.niaid.nih.gov
+master: 137.187.60.254
 
 # Set http proxy information for the minion when doing requests
 #proxy_host:
@@ -655,7 +655,7 @@ master: ai-wdtsaltdev4.niaid.nih.gov
 # Fingerprint of the master public key to validate the identity of your Salt master
 # before the initial key exchange. The master fingerprint can be found by running
 # "salt-key -f master.pub" on the Salt master.
-master_finger: 'a8:e9:ad:0f:a1:ca:6b:a1:0e:eb:27:13:3e:26:59:61:93:58:7a:f3:bd:e5:a9:61:51:c5:91:cd:ec:ef:0c:db'
+master_finger: '57:ee:52:bd:76:76:02:ad:20:08:6a:12:b1:a7:bf:d9:bb:33:e2:3c:08:cc:98:31:be:8b:b2:04:28:53:72:89'
 
 # Use TLS/SSL encrypted connection between master and minion.
 # Can be set to a dictionary containing keyword arguments corresponding to Python's
